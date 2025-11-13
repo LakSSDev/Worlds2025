@@ -1,4 +1,5 @@
 
+import { Link } from "react-router-dom";
 import Countdown from "../components/countDown";
 
 export const Default = () => {
@@ -40,7 +41,7 @@ export const Default = () => {
 
         {/* Botones */}
         <div className="flex flex-col sm:flex-row gap-4 justify-center w-full px-4 sm:px-0">
-          {/* ÚNETE */}
+          {/* ÚNETE 
           <a
             className="px-6 py-3 sm:px-8 sm:py-4 rounded-xl font-semibold text-white shadow-lg transition-transform duration-300 hover:scale-105
                        bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-500 hover:to-purple-500 text-sm sm:text-base"
@@ -48,10 +49,11 @@ export const Default = () => {
             target="_blank"
           >
             ÚNETE
-          </a>
+          </a>*/}
 
           {/* LIGA UNLIMITED */}
-          {/* 
+         
+
           <Link
             to="/home"
             className="px-6 py-3 sm:px-8 sm:py-4 rounded-xl font-semibold text-white/95 shadow-lg transition-transform duration-300 hover:scale-105
@@ -59,7 +61,6 @@ export const Default = () => {
           >
             LIGA UNLIMITED
           </Link>
-          */}
         </div>
       </div>
     </section>

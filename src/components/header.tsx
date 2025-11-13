@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Header = () => {
   return (
     <div>
@@ -16,37 +18,28 @@ export const Header = () => {
             >
               <ul className="mt-4 flex flex-col font-medium lg:mt-0 lg:flex-row lg:space-x-8">
                 <li>
-                  <a
+                  < Link
                     className="block border-b py-2 pr-4 pl-3 text-gray-400 hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:hover:text-purple-700"
-                    href="/"
+                    to="/home"
                   >
                     <span className="self-center text-x font-semibold whitespace-nowrap text-white">
                       Inicio
                     </span>
-                  </a>
+                  </Link>
                 </li>
 
                 <li>
-                  <a
+                  <Link
                     className="block border-b py-2 pr-4 pl-3 text-gray-400 hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:hover:text-purple-700"
-                    href="/"
+                    to="/calendar"
                   >
                     <span className="self-center text-x font-semibold whitespace-nowrap text-white">
                       Calendario
                     </span>
-                  </a>
+                  </Link>
                 </li>
 
-                <li>
-                  <a
-                    className="block border-b py-2 pr-4 pl-3 text-gray-400 hover:text-white lg:border-0 lg:p-0 lg:hover:bg-transparent lg:hover:text-purple-700"
-                    href="/"
-                  >
-                    <span className="self-center text-x font-semibold whitespace-nowrap text-white">
-                      Nosotros
-                    </span>
-                  </a>
-                </li>
+              
                
               </ul>
             </div>
