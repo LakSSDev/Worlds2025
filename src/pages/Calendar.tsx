@@ -31,7 +31,7 @@ export const Calendar = () => {
         </p>
 
         <p className="mt-1 text-sm text-indigo-200/50">
-          Transmisión en vivo desde kick https://kick.com/laksgg
+          Transmisión en vivo desde kick <a href='https://kick.com/laksgg' target="_black" className="text-amber-300">Laksgg</a> 
         </p>
       </div>
     
